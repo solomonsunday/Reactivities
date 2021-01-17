@@ -22,9 +22,9 @@ const car2: ICar = {
 
 //function
 
-const multiply = (x: number, y: number) => {
-    // return (x *y).toString();
-    x * y;
+const multiply = (x: number, y: number): string => {
+    return (x * y).toString();
+    // x * y;
 }
 
 export const cars = [car1, car2];
